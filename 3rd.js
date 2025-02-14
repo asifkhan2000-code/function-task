@@ -7,7 +7,7 @@ function make_avg(arr, arrLen) {
         console.log(num);
         sum = sum + num;
     }
-    avg = sum / arrLen;
+    const avg = sum / arrLen;
     return avg;
 }
 const nums = [30, 40, 50, 60, 70];
